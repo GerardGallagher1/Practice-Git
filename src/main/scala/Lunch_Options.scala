@@ -8,4 +8,9 @@ object Lunch_Options {
   val drink2 = "sprite"
   val drink3 = "fanta"
   val drink4 = "drpepper"
+
+  def favouriteMeal(food: String, drink: String): String = {
+ val favouriteMeal = food + " " + drink
+    favouriteMeal
+  }
 }
